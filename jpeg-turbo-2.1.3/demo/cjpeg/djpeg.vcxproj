@@ -60,10 +60,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BMP_SUPPORTED;WIN32;_WINDOWS;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
     <NASM>
       <IncludePaths>;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
@@ -94,10 +91,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BMP_SUPPORTED;GIF_SUPPORTED;PPM_SUPPORTED;TARGA_SUPPORTED;USE_SETMODE;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
-    </ResourceCompile>
+    
     <NASM>
       <IncludePaths>;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
